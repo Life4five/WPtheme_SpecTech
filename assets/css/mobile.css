@@ -1,0 +1,979 @@
+@media screen and (max-device-width:1920px) {
+
+}
+
+@media screen and (max-device-width:1600px) {
+	
+}
+
+@media screen and (max-device-width:1440px) {
+
+}
+
+@media screen and (max-device-width:1360px) {
+	
+}
+		
+@media screen and (max-width:1200px) {
+	section.center {
+		width:70%;
+	}
+	.partner{
+		max-height: 80px;
+		max-width: 130px;
+	}
+	
+}
+
+@media screen and (max-width:1024px) {
+	.navigation-bar {
+		display:none;
+	}
+	.nav-menu {
+		display:block;
+		position: absolute;
+		right:0;
+	}
+	.partner{
+		max-height: 50px;
+		max-width: 95px;
+	}
+	.header {
+		justify-content: flex-start;
+	}
+	#headerLogo {
+		margin-left:4%;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.autoplay-dots {
+		padding:0;
+	}
+	.header {
+		background: linear-gradient(180deg, #333030 0%, rgba(48, 48, 48, 0) 100%);
+		justify-content: flex-start;
+	}
+	#headerLogo {
+		margin-left:20px;
+	}
+	.navigation-bar {
+		display:none;
+	}
+	.nav-menu {
+		display:block;
+		position: absolute;
+		right:0;
+	}
+	.nav_window {
+		width:400px;
+		height:600px;
+	}
+	.nav_window a {
+		font-size:32px;
+	}
+	.nav_window a div{
+		width:80px;
+		height:80px;
+	}
+	.leff_part {
+		margin:0 auto;
+	}
+	.intro_text {
+		margin-top:80%;
+	}
+	.btn-offer, .btn-inv {
+		height: 50px;
+		width: 190px;
+	}
+	.counter {
+		display:none;
+	}
+	#intro-slide1 {
+		background:url("../images/volvoExmobile.png") no-repeat;
+	}
+	#intro-slide2 {
+		background:url("../images/kolesnyeHigh.jpg") no-repeat;
+	}
+	#intro-slide3 {
+		background:url("../images/aboutHigh.jpg") no-repeat;
+	}
+	#intro-slide4 {
+		background:url("../images/volvoExmobile.png") no-repeat;
+	}
+	.h1 {
+		font-size:32px;
+		color: transparent; 
+		background-clip: text;   
+		-webkit-background-clip: text;
+		background-image: linear-gradient(to bottom, #FFB906, #FF7E06);
+		margin:0;
+		font-weight: 800;
+		font-size: 32px;
+		line-height: 72px;
+		text-align: center;
+		align-self: center;
+	}
+	h2 {
+		font-size:32px;
+	}
+	.btn-offer,
+	.btn-inv {
+		height:80px;
+		width:280px;
+		border-radius: 50px;
+		font-size:24px;
+	}
+	#container21 {
+		font-size:48px;
+		justify-content: center;
+		padding:0;
+		margin-top:20px;
+	}
+	.regular .prev-arrow {
+		left:0%;
+		z-index:100;
+	}
+	.regular .next-arrow {
+		right:0;
+		z-index:100;
+	}
+	.container3 span {
+		font-size:32px;
+		margin-top:16px;
+	}
+	#hookimgSmall {
+		display:block;
+	}
+	#excimgSmall {
+		display:block;
+	}
+	.container41 {
+		margin-right:10%;
+	}
+	.container5 {
+		background:url("../images/about.jpg") no-repeat;
+		background-size: cover;
+	}
+	.container51 {
+		display:none;
+	}
+	#container520 {
+		padding:0;
+		position: absolute;
+		margin-top:5px;
+		width:100%;
+	}
+	#container520 p,
+	#container520 ul{
+		display:none;
+	}
+	#container521 {
+		display:block;
+		position: relative;
+		top:-100px;
+		padding:30px;
+		max-width:100%;
+	}
+	#container521 p,
+	#container521 ul {
+		font-size:32px;
+	}
+	#container521 ul li{
+		width:30%;
+	}
+	#intro-slide1,
+	#intro-slide2,
+	#intro-slide3,
+	#intro-slide4 {
+		background-position:top;
+		background-size:contain;
+	}
+	.intro_gradient {
+		background: linear-gradient(0deg, #333030 56.46%, rgba(51, 48, 48, 0) 90%);
+		clip-path:none;
+		position: absolute;
+		bottom:0px;
+		height:90%;
+		width:100vw;
+	}
+	#hookimg,
+	#excimg {
+		display:none;
+	}
+	#hookimgSmall {
+		position: absolute;
+		left:0;
+		top:0;
+	}
+	#excimgSmall {
+		position: absolute;
+		right:0;
+		top:50%;
+	}
+	#container31 h1{
+		font-size:48px;
+	}
+	.container4 h1{
+		font-size:48px;
+	}
+	.numbers {
+		flex-wrap: wrap;
+		justify-content: center;
+		top:-87px;
+	}
+	.number {
+		font-size:32px;
+	}
+	.number_text {
+		font-size:10px;
+	}
+	.numbers_container {
+		width:115px;
+		height:70px;
+		margin-bottom:5px;
+	}
+	.partners {
+		flex-wrap:wrap;
+	}
+	.partners_title .h1 {
+		font-size:32px;
+	}
+	.partner {
+		margin-bottom:10px;
+	}
+	.review-card {
+		/* min-height:350px; */
+		max-width:400px;
+	}
+	.review-card>div {
+		padding:30px 55px;
+	}
+	.star-rating {
+		font-size: 0.75em;
+	}
+	.block8 {
+		padding:34px;
+	}
+	.container8 {
+		flex-direction: column;
+	}
+	.container81 {
+		width:100%;
+	}
+	.container82 {
+		width:100%;
+	}
+	.title81, .title82 {
+		font-size: 32px;
+	}
+	.content81 {
+		font-size:24px;
+	}
+	.network_title {
+		font-size: 32px;
+	}
+	.form2-title {
+		font-size:18px;
+	}
+	.form-container {
+		width: 85%;
+		margin: 0 auto;
+	}
+	.form-input2 {
+		margin-left:5%;
+	}
+	.modal_call_window {
+		width:400px;
+		height: 550px;
+	}
+}
+	
+@media screen and (max-width:560px) {
+	.autoplay-dots {
+		padding:0;
+	}
+	.header {
+		background: linear-gradient(180deg, #333030 0%, rgba(48, 48, 48, 0) 100%);
+		justify-content: flex-start;
+	}
+	#headerLogo {
+		margin-left:20px;
+	}
+	.navigation-bar {
+		display:none;
+	}
+	.nav-menu {
+		display:block;
+		position: absolute;
+		right:0;
+	}
+	.nav_window a div{
+		width:40px;
+		height:40px;
+	}
+	.intro_text {
+		margin-top:60%;
+	}
+	.btn-offer, .btn-inv {
+		height: 60px;
+		width: 200px;
+	}
+	.counter {
+		display:none;
+	}
+	#intro-slide1 {
+		background:url("../images/volvoExmobile.png") no-repeat;
+	}
+	#intro-slide2 {
+		background:url("../images/kolesnyeHigh.jpg") no-repeat;
+	}
+	#intro-slide3 {
+		background:url("../images/aboutHigh.jpg") no-repeat;
+	}
+	#intro-slide4 {
+		background:url("../images/volvoExmobile.png") no-repeat;
+	}
+	.h1 {
+		font-size:32px;
+		color: transparent; 
+		background-clip: text;   
+		-webkit-background-clip: text;
+		background-image: linear-gradient(to bottom, #FFB906, #FF7E06);
+		margin:0;
+		font-weight: 800;
+		font-size: 32px;
+		line-height: 72px;
+		text-align: center;
+		align-self: center;
+	}
+	h2 {
+		font-size:18px;
+	}
+	.offer-btns {
+		flex-direction: column;
+	}
+	#container21 {
+		font-size:24px;
+		justify-content: center;
+		padding:0;
+		margin-top:20px;
+	}
+	.container3 span {
+		font-size:18px;
+		margin-top:16px;
+	}
+	#hookimgSmall {
+		display:block;
+	}
+	#excimgSmall {
+		display:block;
+	}
+	.container41 {
+		margin-left:0;
+	}
+	.container5 {
+		background:url("../images/about.jpg") no-repeat;
+		background-size: cover;
+	}
+	.container51 {
+		display:none;
+	}
+	#container520 {
+		padding:0;
+		position: absolute;
+		margin-top:5px;
+		width:100%;
+	}
+	#container520 p,
+	#container520 ul{
+		display:none;
+	}
+	#container521 {
+		position: relative;
+		top:-100px;
+		padding:30px;
+		font-size:18px;
+	}
+	#container521 p,
+	#container521 ul {
+		font-size:18px;
+	}
+	#container521 ul li{
+		width:20%;
+		margin:0px 30px;
+	}
+	#intro-slide1,
+	#intro-slide2,
+	#intro-slide3,
+	#intro-slide4 {
+		background-position:top;
+		background-size:contain;
+	}
+	.intro_gradient {
+		background: linear-gradient(0deg, #333030 56.46%, rgba(51, 48, 48, 0) 90%);
+		clip-path:none;
+		position: absolute;
+		bottom:0px;
+		height:90%;
+		width:100vw;
+	}
+	#hookimg,
+	#excimg {
+		display:none;
+	}
+	#hookimgSmall {
+		position: absolute;
+		left:0;
+		top:0;
+	}
+	#excimgSmall {
+		position: absolute;
+		right:0;
+		top:50%;
+	}
+	#container31 h1{
+		font-size:32px;
+	}
+	.container4 h1{
+		font-size:32px;
+	}	
+	.numbers {
+		flex-wrap: wrap;
+		justify-content: center;
+		top:-87px;
+	}
+	.number {
+		font-size:32px;
+	}
+	.number_text {
+		font-size:10px;
+	}
+	.numbers_container {
+		width:115px;
+		height:70px;
+		margin-bottom:5px;
+	}
+	.partners {
+		flex-wrap:wrap;
+	}
+	.partners_title .h1 {
+		font-size:32px;
+	}
+	.partner {
+		margin-bottom:10px;
+	}
+	.review-card {
+		max-width:360px;
+	}
+	.block8 {
+		padding:34px;
+	}
+	.container8 {
+		flex-direction: column;
+	}
+	.container81 {
+		width:100%;
+	}
+	.container82 {
+		width:100%;
+	}
+	.form-container {
+		width: 85%;
+		margin: 0 auto;
+	}
+	.modal_call_window {
+		width:300px;
+		height: 550px;
+	}
+}
+	
+@media screen and (max-width:480px) {
+	.autoplay-dots {
+		padding:0;
+	}
+	.header {
+		background: linear-gradient(180deg, #333030 0%, rgba(48, 48, 48, 0) 100%);
+		justify-content: flex-start;
+	}
+	#headerLogo {
+		margin-left:20px;
+	}
+	.navigation-bar {
+		display:none;
+	}
+	.nav-menu {
+		display:block;
+		position: absolute;
+		right:0;
+	}
+	.nav_window {
+		width: 300px;
+		height: 400px;
+	}
+	.nav_window a div{
+		width:40px;
+		height:40px;
+	}
+	.intro_text {
+		margin-top:70%;
+	}
+	.intro_text h1 {
+		font-size:48px;
+	}
+	.btn-offer, .btn-inv {
+		height: 50px;
+		width: 100%;
+	}
+	.counter {
+		display:none;
+	}
+	#intro-slide1 {
+		background:url("../images/volvoExmobile.png") no-repeat;
+	}
+	#intro-slide2 {
+		background:url("../images/kolesnyeHigh.jpg") no-repeat;
+	}
+	#intro-slide3 {
+		background:url("../images/aboutHigh.jpg") no-repeat;
+	}
+	#intro-slide4 {
+		background:url("../images/volvoExmobile.png") no-repeat;
+	}
+	#intro-slide1,
+	#intro-slide2,
+	#intro-slide3,
+	#intro-slide4 {
+		background-size: cover;
+	}
+	.h1 {
+		font-size:32px;
+		color: transparent; 
+		background-clip: text;   
+		-webkit-background-clip: text;
+		background-image: linear-gradient(to bottom, #FFB906, #FF7E06);
+		margin:0;
+		font-weight: 800;
+		font-size: 32px;
+		line-height: 72px;
+		text-align: center;
+		align-self: center;
+	}
+	h2 {
+		font-size:18px;
+	}
+	.offer-btns {
+		flex-direction: column;
+	}
+	#container21 {
+		font-size:24px;
+		justify-content: center;
+		padding:0;
+		margin-top:20px;
+	}
+	.container3 span {
+		font-size:18px;
+		margin-top:16px;
+	}
+	#hookimgSmall {
+		display:block;
+	}
+	#excimgSmall {
+		display:block;
+	}
+	.container41 {
+		margin:0 auto;
+	}
+	.container5 {
+		background:url("../images/about.jpg") no-repeat;
+		background-size: cover;
+	}
+	.container51 {
+		display:none;
+	}
+	#container520 {
+		padding:0;
+		position: absolute;
+		margin-top:5px;
+		width:100%;
+	}
+	#container520 p,
+	#container520 ul{
+		display:none;
+	}
+	#container521 {
+		position: relative;
+		top:-100px;
+		padding:15px;
+	}
+	#intro-slide1,
+	#intro-slide2,
+	#intro-slide3,
+	#intro-slide4 {
+		background-position:top;
+		background-size:contain;
+	}
+	.intro_gradient {
+		background: linear-gradient(0deg, #333030 56.46%, rgba(51, 48, 48, 0) 90%);
+		clip-path:none;
+		position: absolute;
+		bottom:0px;
+		height:90%;
+		width:100vw;
+	}
+	#hookimg,
+	#excimg {
+		display:none;
+	}
+	#hookimgSmall {
+		position: absolute;
+		left:0;
+		top:0;
+	}
+	#excimgSmall {
+		position: absolute;
+		right:0;
+		top:50%;
+	}
+	#container31 h1{
+		font-size:32px;
+	}
+	.container4 h1{
+		font-size:24px;
+	}	
+	.numbers {
+		flex-wrap: wrap;
+		justify-content: center;
+		top:-87px;
+	}
+	.number {
+		font-size:32px;
+	}
+	.number_text {
+		font-size:10px;
+	}
+	.numbers_container {
+		width:120px;
+		height:70px;
+		margin-bottom:5px;
+	}
+	.partners {
+		flex-wrap:wrap;
+	}
+	.partners_title .h1 {
+		font-size:32px;
+	}
+	.partner {
+		margin-bottom:10px;
+	}
+	.review-card {
+		min-width:220px;
+		max-width:240px;
+	}
+	.review-card>div {
+		padding:10px 30px;
+	}
+	.star-rating {
+		font-size: 0.5em;
+	}
+	.card-content span {
+		padding: 0;
+		font-size:16px;
+	}
+	.container7_title {
+		margin:20px 0px;
+		flex-grow:1;
+	}
+	section.center {
+		flex-grow:1;
+	}
+	.block8 {
+		padding:34px;
+	}
+	.container8 {
+		flex-direction: column;
+	}
+	.container81 {
+		width:100%;
+	}
+	.container82 {
+		width:100%;
+	}
+	.form-container {
+		width:85%;
+		margin:0 auto;
+	}
+	.modal_call_window {
+		width:260px;
+		height: 550px;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.autoplay-dots {
+		padding:0;
+	}
+	.header {
+		background: linear-gradient(180deg, #333030 0%, rgba(48, 48, 48, 0) 100%);
+		justify-content: flex-start;
+	}
+	#headerLogo {
+		margin-left:20px;
+	}
+	.navigation-bar {
+		display:none;
+	}
+	.nav-menu {
+		display:block;
+		position: absolute;
+		right:0;
+	}
+	.intro_text {
+		margin-top:90%;
+	}
+	.intro_text h1 {
+		font-size:32px;
+	}
+	.counter {
+		display:none;
+	}
+	#intro-slide1 {
+		background:url("../images/volvoExmobile.png") no-repeat;
+	}
+	#intro-slide2 {
+		background:url("../images/kolesnyeHigh.jpg") no-repeat;
+	}
+	#intro-slide3 {
+		background:url("../images/aboutHigh.jpg") no-repeat;
+	}
+	#intro-slide4 {
+		background:url("../images/volvoExmobile.png") no-repeat;
+	}
+	h1 {
+		font-size:32px;
+	}
+	.h1 {
+		font-size:32px;
+		color: transparent; 
+		background-clip: text;   
+		-webkit-background-clip: text;
+		background-image: linear-gradient(to bottom, #FFB906, #FF7E06);
+		margin:0;
+		font-weight: 800;
+		font-size: 32px;
+		line-height: 72px;
+		text-align: center;
+		align-self: center;
+	}
+	h2 {
+		font-size:18px;
+	}
+	.nav_window {
+		width: 200px;
+		height: 300px;
+	}
+	.nav_window a {
+		font-size: 20px;
+	}
+	#offer_btns {
+		flex-direction: row;
+		margin-bottom:10px;
+	}
+	.btn-offer, .btn-inv {
+		height: 40px;
+		font-size:16px;
+		padding:0 10%;
+	}
+	#container21 {
+		justify-content: center;
+		padding:0;
+		margin-top:20px;
+	}
+	.main-tab {
+		display: flex;
+		flex-direction: column;
+		margin:0;
+	}
+	section.regular .slick-slide {
+		margin:30;
+	}
+	section.regular .next-arrow {
+		right:0;
+	}
+	section.regular .prev-arrow {
+		left:0;
+	}
+	section.regular .prev-arrow,
+	section.regular .next-arrow {
+		top:50%;
+	}
+	.container41 {
+		margin:0 auto;
+	}
+	.container5 {
+		background:url("../images/about.jpg") no-repeat;
+		background-size: cover;
+	}
+	.container51 {
+		display:none;
+	}
+	#container520 {
+		padding:0;
+		position: absolute;
+		margin-top:5px;
+		width:100%;
+	}
+	#container520 p,
+	#container520 ul{
+		display:none;
+	}
+	#container521 {
+		position: relative;
+		padding:15px;
+	}
+	#container521 p,
+	#container521 ul {
+		font-size:14px;
+	}
+	#intro-slide1,
+	#intro-slide2,
+	#intro-slide3,
+	#intro-slide4 {
+		background-position:top;
+		background-size:contain;
+	}
+	.intro_gradient {
+		background: linear-gradient(0deg, #333030 56.46%, rgba(51, 48, 48, 0) 90%);
+		clip-path:none;
+		position: absolute;
+		bottom:0px;
+		width:100vw;
+	}
+	#hookimg,
+	#excimg {
+		display:none;
+	}
+	#hookimgSmall {
+		position: absolute;
+		left:0;
+		top:0;
+	}
+	#excimgSmall {
+		position: absolute;
+		right:0;
+		top:50%;
+	}
+	#container31 h1{
+		font-size:24px;
+	}
+	.container4 h1{
+		font-size:24px;
+	}	
+	.numbers {
+		flex-wrap: wrap;
+		justify-content: center;
+		top:-87px;
+	}
+	.partners {
+		flex-wrap:wrap;
+	}
+	.partners_title .h1 {
+		font-size:32px;
+	}
+	.partner {
+		margin-bottom:10px;
+	}
+	ul.techs{
+		display:flex;
+		flex-wrap:wrap;
+		margin: 0;
+		padding: 4px;
+	   }
+	ul.techs li {
+		display: list-item;
+		
+		margin: 0px 50px;
+		padding: 3px;
+		width:90px;
+		list-style-type: disc;
+	   }
+	.block8 {
+		padding:34px;
+	}
+	.container8 {
+		flex-direction: column;
+	}
+	.container81 {
+		width:100%;
+	}
+	.container82 {
+		width:100%;
+	}
+	.title81, .title82 {
+		font-size: 18px;
+	}
+	.content81 {
+		font-size:18px;
+	}
+	section.center .slick-slide {
+		margin:0px 10px;
+	}
+	.prev-arrow {
+		left:-25px;
+	}
+	section.center .prev-arrow,
+	section.center .next-arrow {
+		top:30%;
+	}
+	.next-arrow {
+		right:-25px;
+	}
+	.card_text {
+		padding-left:3%;
+		padding-right:3%;
+	}
+	ul {
+		padding:0;
+	}
+	.review-card>div {
+		font-size:14px;
+		padding:10px;
+		margin:10% 0;	
+	}
+	.card-title {
+		font-size: 18px;
+	}
+	.network_title {
+		font-size: 18px;
+	}
+	.network1 div a img {
+		height:32px;
+		width:32px;
+	}
+	.form-title {
+		font-size:18px;
+		margin-top:10px;
+		margin-bottom:20px;
+	}
+	.form-container {
+		width:260px;
+	}
+	.form-input {
+		font-size:14px;
+	}
+	.form-btn {
+		margin-bottom:10px;
+	}
+	.field2 {
+		width:100%;
+	}
+	.form-input2 {
+		width:100%;
+		margin-left:5%;
+	}
+	.modal_call_window {
+		width: 260px;
+		height: 500px;
+	}
+	
+}

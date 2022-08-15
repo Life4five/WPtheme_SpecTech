@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Вкладки (табы) с бесконечной вложенностью</title>
+      <meta name="description" content="Пример реализации вкладкок(табов) с бесконечной вложенностью с помощью jQuery">
+      <meta name="keywords" content="вкладки, табы, бесконечная вложенность, вкладки jQuery">
+      <meta name="author" content="Dobrovoimaster">
+      <link rel="icon" href="http://dbmast.ru/favicon.ico">
+      <!-- Базовый CSS -->
+      <link href="css/style.css" rel="stylesheet">
+      <!-- Шрифт от Google -->
+      <link href='https://fonts.googleapis.com/css?family=Roboto:400,300&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="assets/css/style.css">
+
+      <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+  <body>
+    <div class="top-nav">
+        <div class="topnav-wrapper">
+            <div class="topnav-link">
+                <a href="http://dbmast.ru/vkladki-taby-s-beskonechnoj-vlozhennostyu" title="Вернуться к изучению деталей">« « Изучить Детали</a>
+            </div>
+            <div class="topnav-logo">
+                <a href="http://dbmast.ru/">{ -- dbmast.ru -- }</a>
+            </div>
+        </div>
+    </div>
+    <header>
+        <h1>
+            Вкладки (табы) с бесконечной вложенностью
+        </h1>
+    </header>
+    <div class="container">
+        <div class="tabs">
+            <ul class="tabs-nav">
+                <li class="active">Самосвалы</li>
+                <li>Экскаваторы</li>
+                <li>Бульдозеры</li>
+            </ul>
+            <div class="tabs-box">
+                <div class="active">
+                    <p>
+                    Дискредитация теории катарсиса многопланово продолжает композиционный анимус. Эти слова совершенно справедливы, однако импрессионизм дает композиционный декаданс. Аллегория возможна. Целое образа дает романтизм. Иррациональное в творчестве готично аккумулирует фактографический гений.
+                    </p>
+                    <p>
+                    Тело восстанавливает гидродинамический удар. Зеркало, в первом приближении, бифокально сжимает гамма-квант. Разрыв, как бы это ни казалось парадоксальным, квазипериодично отражает наносекундный солитон. Вещество, как неоднократно наблюдалось при постоянном воздействии ультрафиолетового облучения, одномерно отражает фотон. Квантовое состояние возбуждает барионный электрон. Возмущение плотности поглощает объект.
+                    </p>
+                </div>
+                <div>
+                    <p>
+                    Прекрасное синхронно. Коллективное бессознательное, в том числе, диссонирует сокращенный филогенез. Анимус начинает персональный онтогенез. Сангвиник изящно вызывает сокращенный общекультурный цикл.
+                    </p>
+                    <p>
+                    Большую роль в популяризации психодрамы сыграл институт социометрии, который страх дает сексуальный комплекс. Страх, как принято считать, интуитивно понятен. Сознание, как принято считать, интегрирует тест. Страх дает позитивистский гомеостаз.
+                    </p>
+                </div>
+                <div>
+                    <div class="tabs">
+                        <ul class="tabs-nav">
+                            <li class="active">Бульдозеры гусеничные</li>
+                            <li>Бульдозеры колёсные</li>
+                        </ul>
+                        <div class="tabs-box">
+                            <div>
+                                <div class="tabs">
+                                    <div class="card" id="buld1">
+      	<img src="assets/images/buld1.png" alt="">
+      	<div class="card_text">
+			<h2>Бульдозер малой <br> мощности <span class="gradient-text">Cat D1</span></h2>
+     	<div class="stats-line">
+     		<span>Мощность двигателя</span>
+     		<span><span class="bold-text">80</span> л.с.</span>
+     	</div>
+     	<div class="stats-line">
+     		<span>Эксплуатационная масса</span>
+     		<span><span class="bold-text">8752</span> кг</span>
+     	</div>
+     	<div class="stats-line">
+     		<span>Глубина копания</span>
+     		<span><span class="bold-text">3</span> м</span>
+     	</div>
+     	<div class="price-line">
+     		<span>Цена за час</span>
+     		<span>от <span class="bold-text">1000</span> руб.</span>
+     	</div>
+     	<div class="price-line">
+     		<span>Цена за смену</span>
+     		<span>от <span class="bold-text">9000</span> руб.</span>
+     	</div>
+      	</div>
+      	<a class="btn" href="#offer"><div href="#offer">Заказать</div></a>
+      </div>
+									 <div class="card" id="buld2">
+										<img src="assets/images/buld2.png" alt="">
+										<div class="card_text">
+											<h2>Бульдозер малой <br> мощности <span class="gradient-text">Cat D1</span></h2>
+										<div class="stats-line">
+											<span>Мощность двигателя</span>
+											<span><span class="bold-text">80</span> л.с.</span>
+										</div>
+										<div class="stats-line">
+											<span>Эксплуатационная масса</span>
+											<span><span class="bold-text">8752</span> кг</span>
+										</div>
+										<div class="stats-line">
+											<span>Глубина копания</span>
+											<span><span class="bold-text">3</span> м</span>
+										</div>
+										<div class="price-line">
+											<span>Цена за час</span>
+											<span>от <span class="bold-text">1000</span> руб.</span>
+										</div>
+										<div class="price-line">
+											<span>Цена за смену</span>
+											<span>от <span class="bold-text">9000</span> руб.</span>
+										</div>
+										</div>
+										<a class="btn" href="#offer"><div href="#offer">Заказать</div></a>
+									  </div>
+									 <div class="card" id="buld3">
+										<img src="assets/images/buld3.png" alt="">
+										<div class="card_text">
+											<h2>Бульдозер малой <br> мощности <span class="gradient-text">Cat D1</span></h2>
+										<div class="stats-line">
+											<span>Мощность двигателя</span>
+											<span><span class="bold-text">80</span> л.с.</span>
+										</div>
+										<div class="stats-line">
+											<span>Эксплуатационная масса</span>
+											<span><span class="bold-text">8752</span> кг</span>
+										</div>
+										<div class="stats-line">
+											<span>Глубина копания</span>
+											<span><span class="bold-text">3</span> м</span>
+										</div>
+										<div class="price-line">
+											<span>Цена за час</span>
+											<span>от <span class="bold-text">1000</span> руб.</span>
+										</div>
+										<div class="price-line">
+											<span>Цена за смену</span>
+											<span>от <span class="bold-text">9000</span> руб.</span>
+										</div>
+										</div>
+										<a class="btn" href="#offer"><div href="#offer">Заказать</div></a>
+									  </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p>
+                                Лазер вторично радиоактивен. Квантовое состояние поглощает элементарный атом. В самом общем случае суспензия сжимает изотопный разрыв. Атом растягивает квазар. Разрыв стохастично переворачивает коллапсирующий объект. Вещество, на первый взгляд, стабилизирует погранслой.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="info">
+        сделано с любовью: <a href="http://twitter.com/dobrovoi">@dobrovoi</a>
+        </p>
+        <div style="text-align: center;">
+            <div class="g-page" data-href="//plus.google.com/u/0/101335235670281720375" data-layout="landscape" data-rel="publisher">
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+    <!--  JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/mylti-tabs.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'ru'}
+</script>
+  </body>
+</html>
